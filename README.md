@@ -44,9 +44,12 @@ The tests cover the health endpoint, agent roster, complete persisted demo run, 
 | POST | `/api/runs` | Execute a team run with `{ "prompt": "...", "title": "..." }` |
 | GET | `/api/runs/<id>` | Run metadata and ordered agent steps |
 
-## GitHub
+## Project links
 
-The source is published at https://github.com/123Yogish/agentflow-ai. Keep `.env`, API keys, and the local database out of Git.
+- **Live demo:** https://agentflow-ai-e6hl.onrender.com/
+- **Source code:** https://github.com/123Yogish/agentflow-ai
+
+Keep `.env`, API keys, and the local database out of Git.
 
 ## Deploy on Render
 
